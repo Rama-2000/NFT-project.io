@@ -1,9 +1,4 @@
-/**
-  * Name: Bidzen | NFT Marketplace HTML Template
-  * Version: 1.0.1
-  * Author: Themesflat
-  * Author URI: http://www.themesflat.com
-*/
+
 @import "ntfs.css";
 @import "shortcodes.css";
 @import "responsive.css";
@@ -236,10 +231,12 @@ textarea {
     overflow-y             : auto;
     font-size: 15px;
 }
-
+.logo-img{
+    max-width: 50%;
+}
 img {
     height                : auto;
-    max-width             : 50%;
+    max-width             : 100%;
     vertical-align        : middle;
     -ms-interpolation-mode: bicubic
 }
@@ -3045,4 +3042,9 @@ background-color: var(--color-4);
 .close {
     color: var(--color-1);
     text-shadow: unset;
+}
+
+.aboutUs{
+    width: 500px;
+    
 }
