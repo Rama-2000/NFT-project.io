@@ -2741,14 +2741,22 @@ blockquote .author::before {
 .slider .slider-img .img-home-1 > img {
     animation: move5 5s infinite linear;
 }
-
-.slider .style-2 .slider-img .img-right .box-avatar,
-.slider .style-2 .slider-img .img-right > img,
-.slider .style-2 .slider-img .img-left .img-1 > img,
-.slider .style-2 .slider-img .img-left .img-2 > img {
+.style-2 .slider-img .img-right .box-avatar,
+.style-2 .slider-img .img-right > img,
+.style-2 .slider-img .img-left .img-1 > img,
+.style-2 .slider-img .img-left .img-2 > img {
     animation: move5 4s infinite linear;
 }
-
+.slider1 .style-2 .slider-img .img-right,
+.slider1 .style-2 .slider-img .img-left .img-1,
+.slider1 .style-2 .slider-img .img-left .img-2{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10%;
+}
+.slider1 .style-2 .slider-img .img-right{
+    margin-right: 20px;
+}
 /* author page -----
 ----------------------*/
 .best-seller-page .sc-heading {
