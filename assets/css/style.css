@@ -3043,7 +3043,19 @@ background-color: var(--color-4);
     color: var(--color-1);
     text-shadow: unset;
 }
-
+.roadmap_text{
+    text-align: center;
+    margin: 50px 0;
+}
+.roadmap_text > h4{
+    padding-bottom: 30px;
+}
+.roadmap_text > div{
+    border: 2px solid #006E51;
+    background-color: #006E51;
+    width: 50px;
+    margin: 0 auto;
+}
 .timeline {
   position: relative;
   width: 100%;
@@ -3098,7 +3110,7 @@ background-color: var(--color-4);
 .container_one::before {
   content: '';
   position: absolute;
-  width: 50px;
+  width: 22px;
   height: 2px;
   top: calc(50% - 1px);
   right: 8px;
@@ -3154,12 +3166,14 @@ background-color: var(--color-4);
 .container_one.right .icon {
   left: 56px;
 }
-
+.is_dark .container_one .content{
+    background: #fff;
+}
 .container_one .content {
-  padding: 30px 90px 30px 30px;
-  background: #F6D155;
+  padding: 40px 90px 40px 30px;
+  background: #DC39FC;
   position: relative;
-  border-radius: 0 500px 500px 0;
+ border-radius: 0 500px 500px 0
 }
 
 .container_one.right .content {
@@ -3186,41 +3200,41 @@ background-color: var(--color-4);
     left: 90px;
   }
 
-  .container {
+  .container_one {
     width: 100%;
     padding-left: 120px;
     padding-right: 30px;
   }
 
-  .container.right {
+  .container_one.right {
     left: 0%;
   }
 
-  .container.left::after, 
-  .container.right::after {
+  .container_one.left::after, 
+  .container_one.right::after {
     left: 82px;
   }
 
-  .container.left::before,
-  .container.right::before {
+  .container_one.left::before,
+  .container_one.right::before {
     left: 100px;
     border-color: transparent #006E51 transparent transparent;
   }
 
-  .container.left .date,
-  .container.right .date {
+  .container_one.left .date,
+  .container_one.right .date {
     right: auto;
     left: 15px;
   }
 
-  .container.left .icon,
-  .container.right .icon {
+  .container_one.left .icon,
+  .container_one.right .icon {
     right: auto;
     left: 146px;
   }
 
-  .container.left .content,
-  .container.right .content {
+  .container_one.left .content,
+  .container_one.right .content {
     padding: 30px 30px 30px 90px;
     border-radius: 500px 0 0 500px;
   }
