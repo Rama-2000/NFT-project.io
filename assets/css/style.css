@@ -3201,14 +3201,14 @@ background-color: var(--color-4);
   margin: 0 0 10px 0;
   font-size: 18px;
   font-weight: normal;
-  color: #006E51;
+  color:var(--bg-color-3);
 }
 
 .container_one .content p {
   margin: 0;
   font-size: 16px;
   line-height: 22px;
-  color: #000000;
+  color: var(--color-4);
 }
 
 @media (max-width: 767.98px) {
