@@ -99,6 +99,7 @@
         $(".tf-text").removeClass("style")
         $(".tf-text").addClass("s1")
         document.getElementById("logo_header").src = "assets/images/logo1.png";
+        document.getElementById("logo_footer").src = "assets/images/logo1.png";
         $('.mode_switcher h6 span').text('Dark Mode');
         document.getElementById("moon_dark").src = "assets/images/icon/moon.png";
     });
@@ -112,6 +113,7 @@
         $(".tf-text").addClass("style")
         $(".tf-text").removeClass("s1")
         document.getElementById("logo_header").src = "assets/images/black-logo4.png";
+        document.getElementById("logo_footer").src = "assets/images/black-logo4.png";
         document.getElementById("moon_dark").src = "assets/images/icon/moon-2.png";
         $('.mode_switcher h6 span').text('Light Mode');
     });

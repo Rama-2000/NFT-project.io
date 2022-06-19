@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\bidzen-package\\bidzen"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "NFT-project-1"
+	}
+}
