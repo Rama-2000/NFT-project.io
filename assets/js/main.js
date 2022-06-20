@@ -10,15 +10,7 @@
   * alertBox
   * headerConnect
 */
-var cursorX = innerWidth/2
-var cursorY = innerHeight/2
-function update(e){
-  cursorX = e.clientX || e.touches[0].clientX
-  cursorY = e.clientY || e.touches[0].clientY
-  EQCSS.apply()
-}
-document.addEventListener('mousemove',update)
-document.addEventListener('touchmove',update)
+
 ; (function ($) {
     "use strict";
 
@@ -118,10 +110,11 @@ document.addEventListener('touchmove',update)
         $(".light").addClass("is_active")
         $(".dark").removeClass("is_active")
 
+
         $(".tf-text").addClass("style")
         $(".tf-text").removeClass("s1")
-        document.getElementById("logo_header").src = "assets/images/black-logo4.png";
-        document.getElementById("logo_footer").src = "assets/images/black-logo4.png";
+        document.getElementById("logo_header").src = "assets/images/black-logo4.webp";
+        document.getElementById("logo_footer").src = "assets/images/black-logo4.webp";
         document.getElementById("moon_dark").src = "assets/images/icon/moon-2.png";
         $('.mode_switcher h6 span').text('Light Mode');
     });
@@ -386,3 +379,18 @@ for (i = 0; i < faq.length; i++) {
         }
     });
 }
+
+// $('body').toggleClass('day-background');
+
+// $('#cb1').on('click', function () { $('body').toggleClass('day-background'); });
+
+// function update(e){
+//   var x = e.clientX || e.touches[0].clientX
+//   var y = e.clientY || e.touches[0].clientY
+
+//   document.documentElement.style.setProperty('--cursorX', x + 'px')
+//   document.documentElement.style.setProperty('--cursorY', y + 'px')
+// }
+
+// document.addEventListener('mousemove',update)
+// document.addEventListener('touchmove',update)

@@ -13,6 +13,7 @@
 
     <!-- Theme Style -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.sass">
 
     <!-- Reponsive -->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
@@ -22,6 +23,9 @@
     <link rel="apple-touch-icon-precomposed" href="assets/icon/Favicon.png">
 </head>
 <body class="body header-fixed is_dark">
+    <div class="prelader-window">
+        <img src="assets/images/black-logo4.webp" alt="Preloader logo app" class="preloader-image">
+    </div>
     <header id="header_main" class=" header_1 js-header">
         <div class="container-fluid">
             <div class="row">
@@ -31,18 +35,14 @@
                         <div id="site-logo" class="clearfix">
                             <div id="site-logo-inner">
                                 <a href="index.html" rel="home" class="main-logo">
-                                    <img class="logo-img" id="logo_header" src="assets/images/logo1.png"
+                                    <img class="logo-img" id="logo_header" src="assets/images/logo1.webp"
                                         alt="nft-gaming" width="151" height="45"
-                                        data-retina="assets/images/logo-1.png" data-width="151"
+                                        data-retina="assets/images/logo-1.webp" data-width="151"
                                         data-height="45">
                                 </a>
                             </div>
                         </div>
-                        <form class="form-search">
-                            <input type="text" placeholder="Search here">
-                            <button><i class="far fa-search"></i></button>
-                        </form>
-
+            
                         <div id="site-menu">
                             <nav id="main-nav" class="main-nav">
                                 <ul id="menu-primary-menu" class="menu">
@@ -70,7 +70,7 @@
                             <a href="#" class="light d-flex align-items-center">
                                 <img src="assets/images/icon/sun.png" alt="">
                             </a>
-                            <a href="#" class="dark d-flex align-items-center is_active">
+                            <a href="#" id="cb1" class="dark d-flex align-items-center is_active toggle">
                                 <img id="moon_dark" src="assets/images/icon/moon.png" alt="">
                             </a>
                         </div>
@@ -776,9 +776,7 @@
         </div>
     </div>
 
-
-
-
+    <div class="cursor"></div>
 
 
     <script src="assets/js/jquery.min.js"></script>
@@ -790,5 +788,38 @@
     <script src="assets/js/count-down.js"></script>
     <script src="assets/js/shortcodes.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+        function update(e){
+            var x = e.clientX || e.touches[0].clientX
+            var y = e.clientY || e.touches[0].clientY
+        
+            document.documentElement.style.setProperty('--cursorX', x + 'px')
+            document.documentElement.style.setProperty('--cursorY', y + 'px')
+            
+            
+        }
+        
+        document.addEventListener('mousemove',update)
+        document.addEventListener('touchmove',update)
+        setTimeout(function () {
+            $(".prelader-window").fadeOut("slow", function () {
+                $(this).remove();
+            });
+        }, 1000);
+
+        // const cursor = document.querySelector('.cursor');
+
+        // document.addEventListener('mousemove', e => {
+        //     cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+        // })
+
+        // document.addEventListener('click', () => {
+        //     cursor.classList.add("expand");
+
+        //     setTimeout(() => {
+        //         cursor.classList.remove("expand");
+        //     }, 500)
+        // })
+    </script>
 </body>
 </html>
