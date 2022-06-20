@@ -808,9 +808,16 @@ blockquote .author::before {
 }
 
 .sc-author-card .card-avatar img {
-    width        : 80px;
-    height       : 80px;
-    border-radius: 50%;
+    width        : 40px;
+    height       : 40px;
+    padding-top: 20px;
+    border-radius: 30%;
+    overflow     : hidden;
+}
+.sc-author-card .brush img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
     overflow     : hidden;
 }
 
@@ -833,10 +840,10 @@ blockquote .author::before {
     transition        : all .5s ease;
 }
 
-.sc-author-card:hover .card-avatar img {
+/* .sc-author-card:hover .card-avatar img {
     -webkit-box-shadow: 0px 1px 14px 2px rgb(14 29 139 / 60%);
     box-shadow        : 0px 1px 14px 2px rgb(14 29 139 / 60%);
-}
+} */
 
 .sc-author-card:hover .card-avatar::after,
 .sc-author-card.active .card-avatar::after {
