@@ -1350,7 +1350,7 @@ a:focus {
 
 .header_1 #site-header-inner {
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 19px 0;
 }
 
@@ -3181,11 +3181,11 @@ background-color: var(--color-4);
 .container_one::after {
   content: '';
   position: absolute;
-  width: 16px;
-  height: 16px;
-  top: calc(50% - 8px);
-  right: -8px;
-  background: #ffffff;
+  width: 20px;
+  height: 20px;
+  top: calc(50% - 10px);
+  right: -11px;
+  background: #DC39FC;
   border: 2px solid #006E51;
   border-radius: 16px;
   z-index: 1;
@@ -3425,7 +3425,7 @@ flex-direction: column;
 /* Style the buttons that are used to open and close the faq-page body */
 .faq-page {
     /* background-color: #eee; */
-    color: #444;
+    color: #DC39FC;
     cursor: pointer;
     padding: 30px 20px;
     border: none;
