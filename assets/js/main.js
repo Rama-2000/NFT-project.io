@@ -10,7 +10,15 @@
   * alertBox
   * headerConnect
 */
-
+var cursorX = innerWidth/2
+var cursorY = innerHeight/2
+function update(e){
+  cursorX = e.clientX || e.touches[0].clientX
+  cursorY = e.clientY || e.touches[0].clientY
+  EQCSS.apply()
+}
+document.addEventListener('mousemove',update)
+document.addEventListener('touchmove',update)
 ; (function ($) {
     "use strict";
 

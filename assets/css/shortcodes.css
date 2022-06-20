@@ -2750,7 +2750,7 @@ blockquote .author::before {
 .slider1 .style-2 .slider-img .img-right,
 .slider1 .style-2 .slider-img .img-left .img-1,
 .slider1 .style-2 .slider-img .img-left .img-2{
-    background-color: #fff;
+    
     padding: 20px;
     border-radius: 10%;
 }
