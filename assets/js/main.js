@@ -98,8 +98,8 @@
 
         $(".tf-text").removeClass("style")
         $(".tf-text").addClass("s1")
-        document.getElementById("logo_header").src = "assets/images/logo1.png";
-        document.getElementById("logo_footer").src = "assets/images/logo1.png";
+        document.getElementById("logo_header").src = "assets/images/logo1.webp";
+        document.getElementById("logo_footer").src = "assets/images/logo1.webp";
         $('.mode_switcher h6 span').text('Dark Mode');
         document.getElementById("moon_dark").src = "assets/images/icon/moon.png";
     });
