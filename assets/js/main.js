@@ -394,3 +394,22 @@ for (i = 0; i < faq.length; i++) {
 
 // document.addEventListener('mousemove',update)
 // document.addEventListener('touchmove',update)
+
+
+// const navLi = document.querySelectorAll("nav ul li");
+// window.onscroll = () => {
+// var current = "";
+
+// sections.forEach((section) => {
+//     const sectionTop = section.offsetTop;
+//     if (scrollY >= sectionTop - 60) {
+//     current = section.getAttribute("id"); }
+// }); 
+
+// navLi.forEach((li) => {
+//     li.classList.remove("current-item");
+//     if (li.classList.contains(current)) {
+//     li.classList.add("current-item");
+//     }
+// });
+// };

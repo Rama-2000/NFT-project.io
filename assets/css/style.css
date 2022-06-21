@@ -1661,7 +1661,6 @@ a:focus {
 .is_dark #main-nav-mobi ul>li>a:hover {
     background: linear-gradient(
 216.56deg,#E250E5 5.32%,#4B50E6 94.32%);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -3467,3 +3466,6 @@ flex-direction: column;
 }
 
 
+nav ul li.current-item{
+
+}
