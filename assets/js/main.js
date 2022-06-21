@@ -165,11 +165,11 @@
         var retina = window.devicePixelRatio > 1 ? true : false;
           if(retina) {
             if(!$('body').hasClass('is_dark')) {
-                $('#site-logo').find('img').attr( {src:'assets/images/logo1.png',width:'151',height:'45'} );
+                $('#site-logo').find('img').attr( {src:'assets/images/logo1.webp',width:'151',height:'45'} );
               }
               else {
-                $('#site-logo').find('img').attr( {src:'assets/images/logo1.png',width:'150',height:'50'} );
-                $('#logo-footer').find('img').attr( {src:'assets/images/logo1.png',width:'151',height:'45'} );
+                $('#site-logo').find('img').attr( {src:'assets/images/logo1.webp',width:'150',height:'50'} );
+                $('#logo-footer').find('img').attr( {src:'assets/images/logo1.webp',width:'151',height:'45'} );
               }
           }   
       };
