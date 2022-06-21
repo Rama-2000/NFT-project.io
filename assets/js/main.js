@@ -161,18 +161,18 @@
         }
     };
 
-    var retinaLogos = function() {
-        var retina = window.devicePixelRatio > 1 ? true : false;
-          if(retina) {
-            if(!$('body').hasClass('is_dark')) {
-                $('#site-logo').find('img').attr( {src:'assets/images/logo1.webp',width:'151',height:'45'} );
-              }
-              else {
-                $('#site-logo').find('img').attr( {src:'assets/images/logo1.webp',width:'150',height:'50'} );
-                $('#logo-footer').find('img').attr( {src:'assets/images/logo1.webp',width:'151',height:'45'} );
-              }
-          }   
-      };
+    // var retinaLogos = function() {
+    //     var retina = window.devicePixelRatio > 1 ? true : false;
+    //       if(retina) {
+    //         if(!$('body').hasClass('is_dark')) {
+    //             $('#site-logo').find('img').attr( {src:'assets/images/logo1.webp',width:'151',height:'45'} );
+    //           }
+    //           else {
+    //             $('#site-logo').find('img').attr( {src:'assets/images/black-logo4.webp',width:'150',height:'50'} );
+    //             $('#logo-footer').find('img').attr( {src:'assets/images/black-logo4.webp',width:'151',height:'45'} );
+    //           }
+    //       }   
+    //   };
 
     // Mobile Navigation
     var mobileNav = function () {
