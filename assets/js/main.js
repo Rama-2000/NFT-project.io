@@ -244,7 +244,7 @@
             basicAction: 'mail/subscribe.php',
             mailChimpAction: 'mail/subscribe-mailchimp.php'
         },
-
+        
         eventLoad: function () {
             var objUse = ajaxSubscribe.obj;
 

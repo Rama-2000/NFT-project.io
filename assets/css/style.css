@@ -1647,7 +1647,7 @@ a:focus {
 
 .is_dark #main-nav-mobi ul>li.current-item>a{
     background: linear-gradient(
-216.56deg,#E250E5 5.32%,#4B50E6 94.32%);
+216.56deg,#e55064 5.32%,#e64b4b 94.32%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1660,7 +1660,7 @@ a:focus {
 .is_dark #main-nav-mobi .current-item>a,
 .is_dark #main-nav-mobi ul>li>a:hover {
     background: linear-gradient(
-216.56deg,#E250E5 5.32%,#4B50E6 94.32%);
+216.56deg,#e55050 5.32%,#e64b4b 94.32%);
     -webkit-text-fill-color: transparent;
 }
 
@@ -1990,7 +1990,7 @@ a:focus {
 }
 
 .header_1 .header_avatar .avatar_popup .menu-options li a:hover span {
-    color: #DC39FC;
+    color: #fc3939;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -2065,7 +2065,7 @@ a:focus {
     left      : 0;
     width     : 100%;
     box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 30%);
-    z-index   : 9999;
+    z-index   : 9998;
     opacity: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition   : all 0.5s ease;
@@ -2651,7 +2651,7 @@ color: var(--primary-color4);
 /* wg tags style 2 */
 .wg-tags.style-2 ul li:hover,
 .wg-tags.style-2 ul li.active {
-    background: #6345ED;
+    background: #ed4545;
     color: var(--primary-color);
 }
 /* widget comments */
@@ -2837,7 +2837,7 @@ color: var(--primary-color4);
 }
 
 .bottom-inner a:hover {
-    color: #DC39FC;
+    color: #fc3939;
 }
 /* Scroll Top
 -------------------------------------------------------------- */
@@ -2903,7 +2903,7 @@ color: var(--primary-color4);
 }
 
 .is_dark #scroll-top:after {
-    color      : #5142FC;
+    color      : #fc4242;
 }
 
 #scroll-top:hover {
@@ -3376,13 +3376,13 @@ background-color: var(--color-4);
     top: 0;
 }
 .footer_body .social li:hover:nth-child(1):before{
-    background: #2374e1;
+    background: #e12323;
 }
 .footer_body .social li:hover:nth-child(2):before{
-    background: #55acee;
+    background: #ee5555;
 }
 .footer_body .social li:hover:nth-child(3):before{
-    background: #0077b5;
+    background: #b50000;
 }
 .footer .footer_body .social li:hover:nth-child(4):before {
     background-color: #c00;
@@ -3424,7 +3424,7 @@ flex-direction: column;
 /* Style the buttons that are used to open and close the faq-page body */
 .faq-page {
     /* background-color: #eee; */
-    color: #DC39FC;
+    color: #fc3939;
     cursor: pointer;
     padding: 30px 20px;
     border: none;

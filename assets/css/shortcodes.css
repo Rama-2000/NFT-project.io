@@ -34,9 +34,9 @@
     /* color */
     --primary-color : #FFFFFF;
     --primary-color2: #14161B;
-    --primary-color3: #DC39FC;
+    --primary-color3: #fc3939;
     --primary-color4: #616161;
-    --primary-color5: #6345ED;
+    --primary-color5: #ed4545;
 }
 
 :root {
@@ -56,10 +56,10 @@
     --color-6           : rgba(99, 69, 237, 0.1);
     --border-color-1    : rgba(99, 69, 237, 0.12);
     --color-7           : #7D7D7D;
-    --color-8           : #6345ED;
+    --color-8           : #ed4545;
     --color-9           : #969696;
     --color-12           : rgba(99, 69, 237, 0.1);
-    --color-10          : rgba(99, 69, 237, 0.4);
+    --color-10          : rgba(237, 69, 69, 0.4);
     --color-11          : #fff;
     --border-color-2    : rgba(99, 69, 237, 0.12);
     --bg-newletter         : #F9F9F9;
@@ -158,7 +158,7 @@
 /* button 
 --------------------------------------------------*/
 .sc-button {
-    background-image: linear-gradient(132.41deg, #6345ED 18.03%, #DC39FC 81.29%);
+    background-image: linear-gradient(132.41deg, #ed4545 18.03%, #fc3939 81.29%);
 }
 
 .sc-button {
