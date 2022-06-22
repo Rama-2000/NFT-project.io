@@ -380,36 +380,24 @@ for (i = 0; i < faq.length; i++) {
     });
 }
 
-// $('body').toggleClass('day-background');
-
-// $('#cb1').on('click', function () { $('body').toggleClass('day-background'); });
-
-// function update(e){
-//   var x = e.clientX || e.touches[0].clientX
-//   var y = e.clientY || e.touches[0].clientY
-
-//   document.documentElement.style.setProperty('--cursorX', x + 'px')
-//   document.documentElement.style.setProperty('--cursorY', y + 'px')
-// }
-
-// document.addEventListener('mousemove',update)
-// document.addEventListener('touchmove',update)
 
 
-// const navLi = document.querySelectorAll("nav ul li");
-// window.onscroll = () => {
-// var current = "";
 
-// sections.forEach((section) => {
-//     const sectionTop = section.offsetTop;
-//     if (scrollY >= sectionTop - 60) {
-//     current = section.getAttribute("id"); }
-// }); 
+const sections = document.querySelectorAll("section");
+const navLi = document.querySelectorAll("nav ul li");
+window.onscroll = () => {
+  var current = "";
 
-// navLi.forEach((li) => {
-//     li.classList.remove("current-item");
-//     if (li.classList.contains(current)) {
-//     li.classList.add("current-item");
-//     }
-// });
-// };
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    if (pageYOffset  >= sectionTop - 60) {
+      current = section.getAttribute("id"); }
+  });
+
+  navLi.forEach((li) => {
+    li.classList.remove("activ");
+    if (li.classList.contains(current)) {
+      li.classList.add("activ");
+    }
+  });
+};
