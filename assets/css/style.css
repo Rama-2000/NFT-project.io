@@ -3434,7 +3434,7 @@ flex-direction: column;
     font-size: 24px;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active,
+.faq_active,
 .faq-page:hover {
     background-color: #F9F9F9;
 }
@@ -3456,16 +3456,12 @@ flex-direction: column;
     float: right;
     margin-left: 5px;
 }
-.active:after {
+.faq_active:after {
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
 }
 
-.AboutUs_heading{
+/* .AboutUs_heading{
     color: var(--color-1) !important; 
-}
+} */
 
-
-modal-viewer{
-    
-}
