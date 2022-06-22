@@ -1,8 +1,8 @@
 var swiper =  new Swiper(".slider", {
-    // autoplay: {
-    // delay: 6000,
-    // disableOnInteraction: false,
-    // },
+    autoplay: {
+    delay: 6000,
+    disableOnInteraction: false,
+    },
     navigation: {
         clickable: true,
         nextEl: ".swiper-button-next",
@@ -55,10 +55,10 @@ var swiper =  new Swiper(".live-auc", {
 });
 
 var swiper =  new Swiper(".trendy", {
-    // autoplay: {
-    //     delay: 5000,
-    //     disableOnInteraction: false,
-    //     },
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+        },
     loop:false,
     slidesPerView: 1,
     slidesPerColumn: 2,

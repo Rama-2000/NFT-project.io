@@ -200,7 +200,7 @@
     content           : "";
     height            : calc(100% + 4px);
     width             : calc(100% + 4px);
-    background-image  : linear-gradient(132.41deg, #6345ED 18.03%, #DC39FC 81.29%);
+    background-image  : linear-gradient(132.41deg, #ed4545 18.03%, #fc3939 81.29%);
     top               : -2px;
     left              : -2px;
     border-radius     : 100px;
@@ -234,7 +234,7 @@
     left              : 0px;
     font-weight       : 700;
     top               : -1px;
-    color             : #DC39FC;
+    color             : #fc3939;
     -webkit-transition: all 0.3s ease;
     -moz-transition   : all 0.3s ease;
     -ms-transition    : all 0.3s ease;
@@ -257,7 +257,7 @@
 
 /* button style */
 .sc-button.style-2 {
-    background-image: linear-gradient(to left, #6345ED 58.12%, #DC39FC 81.74%);
+    background-image: linear-gradient(to left, #ed4545 58.12%, #fc3939 81.74%);
     border          : unset;
     background-size : 200% auto;
 }
@@ -506,7 +506,7 @@ blockquote .author::before {
 ----------------------------*/
 .new-letter-inner {
     position       : relative;
-    background     : linear-gradient(132.71deg, #6345ED 18.12%, #DC39FC 81.74%);
+    background     : linear-gradient(132.71deg, #ed4545 18.12%, #fc3939 81.74%);
     border-radius  : 30px;
     padding        : 23px 45px 0px 68px;
     justify-content: space-between;
@@ -894,7 +894,7 @@ blockquote .author::before {
 }
 
 .sc-author-card.style-2 .card-bottom .widget-social a {
-    background: linear-gradient(132.71deg, #6345ED 18.12%, #DC39FC 81.74%);
+    background: linear-gradient(132.71deg, #ed4545 18.12%, #fc3939 81.74%);
 }
 
 .sc-author-card.style-2 .card-bottom .widget-social a:hover {
@@ -1016,8 +1016,8 @@ blockquote .author::before {
     opacity           : 0;
     visibility        : hidden;
     position          : absolute;
-    background        : rgb(242, 105, 253);
-    background        : linear-gradient(130.35deg, #6345ED 17.35%, #DC39FC 78.23%);
+    background        : rgb(253, 105, 105);
+    background        : linear-gradient(130.35deg, #ed4545 17.35%, #fc3939 78.23%);
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition   : all 0.5s ease-in-out;
     -ms-transition    : all 0.5s ease-in-out;
@@ -1083,7 +1083,7 @@ blockquote .author::before {
     color     : #fff;
     font-size : 14px;
     padding   : 6px 21px;
-    background: linear-gradient(124.27deg, #6345ED 15.3%, #DC39FC 69.02%);
+    background: linear-gradient(124.27deg, #ed4545 15.3%, #fc3939 69.02%);
     ;
     border-radius: 145px;
 
@@ -1102,7 +1102,7 @@ blockquote .author::before {
 
 .sc-product-item .product-content .product-author .button-follow:hover,
 .sc-product-item .product-img .button-follow:hover {
-    background: linear-gradient(0deg, #6345ED 15.3%, #DC39FC 69.02%);
+    background: linear-gradient(0deg, #ed4545 15.3%, #fc3939 69.02%);
 }
 
 .sc-product-item .product-img .avatar-box {
@@ -1162,7 +1162,7 @@ blockquote .author::before {
     text-align: center;
     border: 0px;
     background-size: 200% auto;
-    background-image : linear-gradient(130.35deg, #6345ED 17.35%, #6345ED 78.23%);
+    background-image : linear-gradient(130.35deg, #ed4545 17.35%, #ed4545 78.23%);
     color: #fff;
     opacity: 0;
     border: unset;
@@ -1183,7 +1183,7 @@ blockquote .author::before {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-image: linear-gradient(130.35deg, #6345ED 17.35%, #DC39FC 78.23%);
+    background-image: linear-gradient(130.35deg, #ed4545 17.35%, #fc3939 78.23%);
     opacity: 0;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -1287,7 +1287,7 @@ blockquote .author::before {
 }
 
 .sc-product-item .product-content .product-author .infor .author-name a:hover {
-    color: #DC39FC;
+    color: #fc3939;
 }
 
 .sc-product-item .product-content .product-author .infor span {
@@ -1321,7 +1321,7 @@ blockquote .author::before {
 .sc-product-item.style-2 .product-img label {
     right     : 28px;
     padding   : 6px 13px;
-    background: linear-gradient(124.27deg, #6345ED 15.3%, #DC39FC 69.02%);
+    background: linear-gradient(124.27deg, #ed4545 15.3%, #fc3939 69.02%);
     ;
     border-radius: 10px;
     font-size    : 13px;
@@ -1392,7 +1392,7 @@ blockquote .author::before {
 .sc-product-item.style-5 .product-img label,
 .sc-product-item.style-4 .product-img label,
 .sc-product-item.style-3 .product-img label {
-    background: linear-gradient(124.27deg, #6345ED 15.3%, #DC39FC 69.02%);
+    background: linear-gradient(124.27deg, #ed4545 15.3%, #fc3939 69.02%);
     ;
     border-radius: 10px;
     font-size    : 13px;
@@ -1438,7 +1438,7 @@ blockquote .author::before {
 }
 
 .sc-product-item.style-4 .product-content .product-author .button-wishlish {
-    background   : linear-gradient(130.5deg, #6345ED 17.35%, #DC39FC 78.23%);
+    background   : linear-gradient(130.5deg, #ed4545 17.35%, #fc3939 78.23%);
     border-radius: 73px;
     margin-right : 9px;
     padding      : 5px 21px 5px 6px;
@@ -1902,7 +1902,7 @@ blockquote .author::before {
     font-size: 16px;
     font-weight: 700;
     color: #fff;
-    background: linear-gradient(132.41deg, #6345ED 18.03%, #DC39FC 81.29%);
+    background: linear-gradient(132.41deg, #ed4545 18.03%, #fc3939 81.29%);
     border-radius: 145px;
     box-shadow: 4px 4px 30px rgb(99 69 237 / 10%);
     padding: 17px 26px;
@@ -1991,7 +1991,7 @@ blockquote .author::before {
     line-height: 55px;
     border-radius: 50%;
     text-align: center;
-    background: linear-gradient(130.35deg, #6345ED 17.35%, #DC39FC 78.23%);
+    background: linear-gradient(130.35deg, #ed4545 17.35%, #fc3939 78.23%);
     /* box-shadow: 4px 4px 30px rgba(220, 57, 252, 0.5); */
 }
 
@@ -2313,7 +2313,7 @@ blockquote .author::before {
 .sc-contact-infor:hover .icon {
     transform: rotateY(
 180deg);
-    background: linear-gradient(132.71deg, #6345ED 18.12%, #DC39FC 81.74%);
+    background: linear-gradient(132.71deg, #ed4545 18.12%, #fc3939 81.74%);
 }
 
 .map-contact {
@@ -2470,7 +2470,7 @@ blockquote .author::before {
 .is_dark .slider-inner .slider-content .button-slider .sc-button.active.btn-bordered-white,
 .is_dark .slider-inner .slider-content .button-slider .sc-button.btn-bordered-white::after {
     background-image: linear-gradient(
-    132.41deg, #6345ED 18.03%, #DC39FC 81.29%);
+    132.41deg, #ed4545 18.03%, #fc3939 81.29%);
 }
 
 .slider-inner .slider-content .button-slider .sc-button.active span::before,
@@ -2570,14 +2570,14 @@ blockquote .author::before {
     flex-shrink: 0;
     position: relative;
     background: #fff;
-    background: linear-gradient(130.35deg, #6345ED 17.35%, #DC39FC 78.23%) ;
+    background: linear-gradient(130.35deg, #ed4545 17.35%, #fc3939 78.23%) ;
     background-origin: padding-box, border-box;
     background-repeat: no-repeat; 
     
 }
 
 .slider-inner.style-2 .slider-img .img-right .box-avatar .icon-plus a {
-    color: #DC39FC;
+    color: #fc3939;
     position: relative;
     z-index: 3;
 }
@@ -2590,7 +2590,7 @@ blockquote .author::before {
     width: calc(100% - 8px);
     height: calc(100% - 8px);
     border-radius: 50%;
-    background: linear-gradient(130.35deg, #6345ED 17.35%, #DC39FC 78.23%) ;
+    background: linear-gradient(130.35deg, #ed4545 17.35%, #fc3939 78.23%) ;
     background: #fff;
     z-index: 1;
 }
@@ -2603,7 +2603,7 @@ blockquote .author::before {
 
 .is_dark .slider .swiper-button-next,
 .is_dark .slider .swiper-button-prev {
-    background: linear-gradient(130.35deg, #6345ED 17.35%, #DC39FC 78.23%);
+    background: linear-gradient(130.35deg, #ed4545 17.35%, #fc3939 78.23%);
 }
 
 
@@ -2874,7 +2874,7 @@ blockquote .author::before {
     margin-top: 32px;
 }
 .trendy-colection-page #loadmore:hover {
-    background: #6345ED;
+    background: #ed4545;
 }
 .is_dark .trendy-colection-page #loadmore:hover span,
 .is_dark .trendy-colection-page #loadmore:hover span::before {
