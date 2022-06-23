@@ -3402,8 +3402,8 @@ background-color: var(--color-4);
 @media (max-width:500px) {
     
 }
-.faq{
-    margin-top: 20px;
+.faq_section{
+    margin-top: 30px;
 }
 .faq-heading{
     border-bottom: #777;
