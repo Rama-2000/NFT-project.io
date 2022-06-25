@@ -41,53 +41,53 @@
         },
     }; // end themesflatTheme
 
-    // Start things up
-    themesflatTheme.init();
+    // // Start things up
+    // themesflatTheme.init();
 
-    var ajaxContactForm = function () {
-        $('#contactform,#commentform,#create-item-1').each(function () {
-            $(this).validate({
-                submitHandler: function (form) {
-                    var $form = $(form),
-                        str = $form.serialize(),
-                        loading = $('<div />', { 'class': 'loading' });
+    // var ajaxContactForm = function () {
+    //     $('#contactform,#commentform,#create-item-1').each(function () {
+    //         $(this).validate({
+    //             submitHandler: function (form) {
+    //                 var $form = $(form),
+    //                     str = $form.serialize(),
+    //                     loading = $('<div />', { 'class': 'loading' });
 
-                    $.ajax({
-                        type: "POST",
-                        url: $form.attr('action'),
-                        data: str,
-                        beforeSend: function () {
-                            $form.find('.form-submit,comment-form').append(loading);
-                        },
-                        success: function (msg) {
-                            var result, cls;
-                            if (msg === 'Success') {
-                                result = 'Message Sent Successfully To Email Administrator. ( You can change the email management a very easy way to get the message of customers in the user manual )';
-                                cls = 'msg-success';
-                            } else {
-                                result = 'Error sending email.';
-                                cls = 'msg-error';
-                            }
+    //                 $.ajax({
+    //                     type: "POST",
+    //                     url: $form.attr('action'),
+    //                     data: str,
+    //                     beforeSend: function () {
+    //                         $form.find('.form-submit,comment-form').append(loading);
+    //                     },
+    //                     success: function (msg) {
+    //                         var result, cls;
+    //                         if (msg === 'Success') {
+    //                             result = 'Message Sent Successfully To Email Administrator. ( You can change the email management a very easy way to get the message of customers in the user manual )';
+    //                             cls = 'msg-success';
+    //                         } else {
+    //                             result = 'Error sending email.';
+    //                             cls = 'msg-error';
+    //                         }
 
-                            $form.prepend(
-                                $('<div />', {
-                                    'class': 'flat-alert ' + cls,
-                                    'text': result
-                                }).append(
-                                    $('<a class="close" href="#"><i class="fas fa-times"></i></a>')
-                                )
-                            );
+    //                         $form.prepend(
+    //                             $('<div />', {
+    //                                 'class': 'flat-alert ' + cls,
+    //                                 'text': result
+    //                             }).append(
+    //                                 $('<a class="close" href="#"><i class="fas fa-times"></i></a>')
+    //                             )
+    //                         );
 
-                            $form.find(':input').not('.submit').val('');
-                        },
-                        complete: function (xhr, status, error_thrown) {
-                            $form.find('.loading').remove();
-                        }
-                    });
-                }
-            });
-        }); // each contactform
-    };
+    //                         $form.find(':input').not('.submit').val('');
+    //                     },
+    //                     complete: function (xhr, status, error_thrown) {
+    //                         $form.find('.loading').remove();
+    //                     }
+    //                 });
+    //             }
+    //         });
+    //     }); // each contactform
+    // };
 
     // Dark Light Mode
     $(".dark").on('click', function (e) {
