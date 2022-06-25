@@ -56,7 +56,7 @@ var swiper =  new Swiper(".live-auc", {
 
 var swiper =  new Swiper(".trendy", {
     autoplay: {
-        delay: 5000,
+        delay: 3000,
         disableOnInteraction: false,
         },
     loop:false,
@@ -70,6 +70,11 @@ var swiper =  new Swiper(".trendy", {
         prevEl: ".swiper-button-prev",
     },
     breakpoints: {
+        200:{
+            slidesPerColumn: 1,
+            slidesPerView: 1,
+            spaceBetween: 20
+        },
         576: {
             slidesPerView: 2,
             slidesPerColumn: 2,
